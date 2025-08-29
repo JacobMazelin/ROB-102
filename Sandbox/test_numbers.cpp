@@ -66,9 +66,24 @@ bool divideTwoNumbers(float operand1, float operand2, float &quotient){
  *
  * NOTE: The user is assumed to input a valid floating point number on the input stream.
  */
-void getNumber(std::ostream& output_stream, std::istream& input_stream, float &number);
+void getNumber(std::ostream& output_stream, std::istream& input_stream, float &number){
+  output_stream << "Please type a number and press enter: ";
+  input_stream >> number;
+}
 
-bool getOperator(std::ostream& output_stream, std::istream& input_stream, char &operation);
+bool getOperator(std::ostream& output_stream, std::istream& input_stream, char &operation){
+    while (true){
+        output_stream << "Please type a math operator (one of: + - * / or q to quit): ";
+        input_stream >> operation;
+        if (operation == 'q'){
+            return false;
+        }
+        if (operation == '+' && operation == '-' && operation == '*' && operation == '/'){
+            return true;
+        } 
+    output_stream << "Error: specified operation ("<< operation <<") not recognized." << endl;
+}
+}
 
 bool performOperation(float operand1, char operation, float operand2, float &result){
   switch(operation){
@@ -82,17 +97,12 @@ bool performOperation(float operand1, char operation, float operand2, float &res
       multiplyTwoNumbers(operand1, operand2, result);
       return false;
     case '/':
-      if(operand2 == 0){
-        return true;
-      } else {
-        divideTwoNumbers(operand1, operand2, result);
-        return true;
-      }
-    default:
-      cout << "Error: specified operation "<< operation <<" not recognized." << endl;
-      return -1;
+      return divideTwoNumbers(operand1, operand2, result);
   }
+//   cout << "Error: specified operation "<< operation <<" not recognized." << endl;
+  return true;
 }
+
 
 int main() {
   // Let's declare our variables!
@@ -100,13 +110,29 @@ int main() {
   float result_number;
   char my_operator; // Character representing operation to perform
 
-  cout << "Please type a number and press enter: ";
   getNumber(cout, cin, my_number);
-  cout << "Please type a math operator (one of: + - * / or q to quit): ";
   getOperator(cout, cin, my_operator);
-  cout << "Please type a number and press enter: ";
+    if (getOperator(cout, cin, my_operator)){
+        cout << "Calculator: quitting now\n\n";
+        exit(0);
+  }
   getNumber(cout, cin, my_other_number);
-
-  cout << my_number << my_operator << my_other_number << " = " << performOperation(my_number, my_operator, my_other_number, result_number);
+  performOperation(my_number, my_operator, my_other_number, result_number);
+  cout << my_number << " " << my_operator << " " << my_other_number << " = " << result_number << endl;
+while (true){
+  if (getOperator(cout, cin, my_operator)){
+    cout << "Calculator: quitting now\n\n";
+    exit(0);
+  }
+  getOperator(cout, cin, my_operator);
+  getNumber(cout, cin, my_other_number);
+  if (my_operator == '/' && my_other_number == 0){
+    cout << "Error: Divide by zero attempted!!!\n\n";
+    exit(0);
+  }
+  cout << result_number;
+  performOperation(result_number, my_operator, my_other_number, result_number);
+  cout << " " << my_operator << " " << my_other_number << " = " << result_number << endl;
+}
 
 }
