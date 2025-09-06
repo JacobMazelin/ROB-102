@@ -7,55 +7,108 @@
 #include <pocket_calculator/common/utils.h>
 
 
-float addTwoNumbers(float operand1, float operand2) {
-    // *** Task: Implement this function according to the header file *** //
+/*
+ * File: 6_pocket_calc.cpp
+ *
+ * Let's write an infix calculator program for real numbers with variables
+ * that takes numbers from user input, uses functions for modularity,
+ * and performs calulations with infinitely many consecutive operations!
+ */
 
-    return operand1 + operand2;
+#include <iostream>
+using namespace std;
 
-    // *** End student code *** //
+// *** Task: Add any extra helper functions you want here *** //
+
+
+float addTwoNumbers(float operand1, float operand2){
+  /**
+ * Adds two numbers and returns their sum.
+ * @param  operand1 The first number to be added.
+ * @param  operand2 The second number to be added.
+ * @return  The sum of the arguments.
+ */
+  return operand1 + operand2; 
 }
 
-float subtractTwoNumbers(float operand1, float operand2) {
-    // *** Task: Implement this function according to the header file *** //
+/**
+ * Subtracts two numbers and returns the result.
+ * @param  operand1 The number to be subtracted from.
+ * @param  operand2 The amount to be subtracted.
+ * @return  The difference of the arguments.
+ */
 
-    return operand1 - operand2;
-
-    // *** End student code *** //
+float subtractTwoNumbers(float operand1, float operand2){
+  return operand1 - operand2;
 }
 
-void multiplyTwoNumbers(float operand1, float operand2, float &product) {
-    // *** Task: Implement this function according to the header file *** //
-
-    
+/**
+ * Multiplies two numbers and stores the result in the third argument.
+ * @param  operand1 The first number to be multipled.
+ * @param  operand2 The second number to multiply the first by.
+ * @param[out]  product The product of the arguments.
+ */
+void multiplyTwoNumbers(float operand1, float operand2, float &product){
+  product = operand1 * operand2;
 }
 
-bool divideTwoNumbers(float operand1, float operand2, float &quotient) {
-    // *** Task: Implement this function according to the header file *** //
-
+/**
+ * Divides the first argument by the second argument and stores the result in the third argument.
+ * @param  operand1 The numerator of the operation.
+ * @param  operand2 the denominator of the operation.
+ * @param[out]  quotient The quotient, unchanged if return is true.
+ * @return  A bool, true if the denominator is zero, false otherwise.
+ */
+bool divideTwoNumbers(float operand1, float operand2, float &quotient){
+  if(operand2 == 0){
+    return true;
+  } else {
+    quotient = operand1 / operand2;
     return false;
-
-    // *** End student code *** //
+  }
+}
+/**
+ * Prompts the user to input a number and stores the value in the argument.
+ * @param[out]  output_stream The stream on which to prompt the user.
+ * @param[in, out]  input_stream The stream on which to take user input.
+ * @param[out]  number The number collected from the user.
+ *
+ * NOTE: The user is assumed to input a valid floating point number on the input stream.
+ */
+void getNumber(std::ostream& output_stream, std::istream& input_stream, float &number){
+  output_stream << "Please type a number and press enter: ";
+  input_stream >> number;
 }
 
-void getNumber(std::ostream& output_stream, std::istream& input_stream, float &number) {
-    // *** Task: Implement this function according to the header file *** //
-
-    // *** End student code *** //
+bool getOperator(std::ostream& output_stream, std::istream& input_stream, char &operation){
+    while (true){
+        output_stream << "Please type a math operator (one of: + - * / or q to quit): ";
+        input_stream >> operation;
+        if (operation == 'q'){
+            // exit(0);
+            return false;
+        }
+        if (operation == '+' || operation == '-' || operation == '*' || operation == '/'){
+            return true;
+        } else {
+            cerr << "Error: specified operation ("<< operation <<") not recognized." << endl;
+        }
+}
 }
 
-bool getOperator(std::ostream& output_stream, std::istream& input_stream, char &operation) {
-    // *** Task: Implement this function according to the header file *** //
-
-    return false;
-
-    // *** End student code *** //
-}
-
-bool performOperation(float operand1, char operation, float operand2,
-                      float &result) {
-    // *** Task: Implement this function according to the header file *** //
-
-    return false;
-
-    // *** End student code *** //
+bool performOperation(float operand1, char operation, float operand2, float &result){
+  switch(operation){
+    case '+':
+      result = addTwoNumbers(operand1, operand2);
+      return false;
+    case '-':
+      result = subtractTwoNumbers(operand1, operand2);
+      return false;
+    case '*':
+      multiplyTwoNumbers(operand1, operand2, result);
+      return false;
+    case '/':
+      return divideTwoNumbers(operand1, operand2, result);
+  }
+  return true;
 }

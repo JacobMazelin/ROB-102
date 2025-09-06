@@ -1,0 +1,5 @@
+if(EXISTS "/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/test_public[1]_tests.cmake")
+  include("/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/test_public[1]_tests.cmake")
+else()
+  add_test(test_public_NOT_BUILT test_public_NOT_BUILT)
+endif()

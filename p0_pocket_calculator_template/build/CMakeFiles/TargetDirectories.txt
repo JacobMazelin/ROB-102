@@ -1,0 +1,10 @@
+/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/CMakeFiles/hello_world.dir
+/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/CMakeFiles/go_blue.dir
+/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/CMakeFiles/fight_song.dir
+/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/CMakeFiles/eliza.dir
+/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/CMakeFiles/calc_op.dir
+/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/CMakeFiles/pocket_calculator.dir
+/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/CMakeFiles/test_public.dir
+/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/CMakeFiles/test.dir
+/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/CMakeFiles/edit_cache.dir
+/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/CMakeFiles/rebuild_cache.dir

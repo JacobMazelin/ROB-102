@@ -1,55 +1,15 @@
 #include <iostream>
-using namespace std;
-
-int add(int a, int b){
-    return a + b;
+int main()
+{
+  int number_one = 102102;
+  int number_two = 54;
+  int number_three = 1890;
+  int number_four = 42;
+  std::cout << 8/2*2+2;
+  std::cout << "What is "<< number_one <<" plus "<< number_two << "? " << number_one + number_two << "\n";
+  std::cout << "What is "<< number_one <<" minus "<< number_two << "? " << number_one - number_two << "\n";
+  std::cout << "What is "<< number_one <<" multiplied by "<< number_two << "? " << number_one * number_two << "\n";
+  std::cout << "What is "<< number_one <<" divided by "<< number_two << "? " << number_one / number_two << "\n";
+  std::cout << "What is the remainder of "<< number_one <<" divided by "<< number_two << "? " << number_one % number_two << "\n";
+  std::cout << "Verify that "<< number_one <<" is equal to "<< number_three <<" * "<< number_two << " + "<< number_four <<" " << number_three * number_two + number_four << "\n";
 }
-
-int subtract(int a, int b){
-    return a - b;
-}
-
-int multiply(int a, int b){
-    return a * b;
-}
-
-int divide(int a, int b){
-    if(b == 0){
-        cout << "Error: Division by zero!" << endl;
-        return 0;
-    }
-    return a / b;
-}
-
-int main() {
-    int first_number;
-    int second_number;
-    int result;
-    string operation;
-
-    cout << "Enter the first number: ";
-    cin >> first_number;
-    cout << "Enter the second number: ";
-    cin >> second_number;
-    cout << "Enter an operation (+, -, *, /):";
-    cin >> operation;
-
-    if (operation == "+") {
-        result = add(first_number, second_number);
-    }
-    else if (operation == "-") {
-        result = subtract(first_number, second_number);
-    }
-    else if (operation == "*") {
-        result = multiply(first_number, second_number);
-    }
-    else if (operation == "/") {
-        result = divide(first_number, second_number);
-    }
-    else {
-        cout << "Invalid operation!" << endl;
-    }
-
-    cout << "Your Result is: " << result << endl;
-}
-

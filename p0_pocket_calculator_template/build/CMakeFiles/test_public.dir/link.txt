@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++14 -O2 -g -DNDEBUG -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/test_public.dir/test/test_public.cpp.o CMakeFiles/test_public.dir/src/common/utils.cpp.o -o test_public  /opt/miniconda3/lib/libgtest_main.1.11.0.dylib /opt/miniconda3/lib/libgtest.1.11.0.dylib

@@ -76,12 +76,14 @@ bool getOperator(std::ostream& output_stream, std::istream& input_stream, char &
         output_stream << "Please type a math operator (one of: + - * / or q to quit): ";
         input_stream >> operation;
         if (operation == 'q'){
+            // exit(0);
             return false;
         }
-        if (operation == '+' && operation == '-' && operation == '*' && operation == '/'){
+        if (operation == '+' || operation == '-' || operation == '*' || operation == '/'){
             return true;
-        } 
-    output_stream << "Error: specified operation ("<< operation <<") not recognized." << endl;
+        } else {
+            cerr << "Error: specified operation ("<< operation <<") not recognized." << endl;
+        }
 }
 }
 
@@ -99,7 +101,6 @@ bool performOperation(float operand1, char operation, float operand2, float &res
     case '/':
       return divideTwoNumbers(operand1, operand2, result);
   }
-//   cout << "Error: specified operation "<< operation <<" not recognized." << endl;
   return true;
 }
 
@@ -111,24 +112,28 @@ int main() {
   char my_operator; // Character representing operation to perform
 
   getNumber(cout, cin, my_number);
-  getOperator(cout, cin, my_operator);
-    if (getOperator(cout, cin, my_operator)){
+  if (!getOperator(cout, cin, my_operator)){
         cout << "Calculator: quitting now\n\n";
         exit(0);
   }
   getNumber(cout, cin, my_other_number);
+  if (my_operator == '/' && my_other_number == 0){
+    cerr << "Error: Divide by zero attempted!!!\n\n";
+    return -1;
+  }
   performOperation(my_number, my_operator, my_other_number, result_number);
   cout << my_number << " " << my_operator << " " << my_other_number << " = " << result_number << endl;
+
 while (true){
-  if (getOperator(cout, cin, my_operator)){
+  if (!getOperator(cout, cin, my_operator)){
     cout << "Calculator: quitting now\n\n";
     exit(0);
   }
-  getOperator(cout, cin, my_operator);
+  //getOperator(cout, cin, my_operator);
   getNumber(cout, cin, my_other_number);
   if (my_operator == '/' && my_other_number == 0){
-    cout << "Error: Divide by zero attempted!!!\n\n";
-    exit(0);
+    cerr << "Error: Divide by zero attempted!!!\n\n";
+    return -1;
   }
   cout << result_number;
   performOperation(result_number, my_operator, my_other_number, result_number);
