@@ -26,5 +26,5 @@ the leaders and best
 Hail! to the victors valiant
 Hail! to the conqu'ring heroes
 Hail! Hail! to Michigan,
-the champions of the West!)";
+the champions of the West!)" << "\n";
 }

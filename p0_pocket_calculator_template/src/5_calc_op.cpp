@@ -1,25 +1,25 @@
 #include <iostream>
 using namespace std;
 
-int add(int a, int b){
+float add(float a, float b){
     return a + b;
 }
 
-int subtract(int a, int b){
+float subtract(float a, float b){
     return a - b;
 }
 
-int multiply(int a, int b){
+float multiply(float a, float b){
     return a * b;
 }
 
-int divide(int a, int b){
+float divide(float a, float b){
     return a / b;
 }
 
 int main() {
     float first_number;
-    float second_number;
+    float second_number; 
     float result;
     string operation;
 
@@ -41,16 +41,16 @@ int main() {
     }
     else if (operation == "/") {
         if(second_number == 0){
-        cout << "Error: Divide by zero attempted!!!" << endl;
+        cout << "Error: Divide by zero attempted!!!\n";
         return -1;
     }
         result = divide(first_number, second_number);
     }
     else {
-        cout << "Error: specified operation "<< operation <<" not recognized." << endl;
+        cout << "Error: specified operation "<< operation <<" not recognized.\n";
         return -1;
     }
 
-    cout << "Here's the result of the operation!\n" << first_number << operation << second_number << " = " << result << endl;
+    cout << "Here's the result of the operation! \n" << first_number << operation << second_number << " = " << result << endl;
 
 }
