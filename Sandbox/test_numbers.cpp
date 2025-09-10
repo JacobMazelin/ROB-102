@@ -105,6 +105,7 @@ bool performOperation(float operand1, char operation, float operand2, float &res
 }
 
 
+// *** Task: Add any extra helper functions you want here *** //
 int main() {
   // Let's declare our variables!
   float my_number, my_other_number; // Calculation operands

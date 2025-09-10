@@ -1,1 +1,1 @@
-/usr/bin/c++  -std=c++14 -O2 -g -DNDEBUG -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/fight_song.dir/src/3_fight_song.cpp.o -o fight_song
+/usr/bin/c++  -std=c++17 -O2 -g -DNDEBUG -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/fight_song.dir/src/3_fight_song.cpp.o -o fight_song
