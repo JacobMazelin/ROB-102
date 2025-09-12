@@ -1,0 +1,362 @@
+Start testing: Sep 10 22:25 EDT
+----------------------------------------------------------
+12/25 Testing: PocketCalculator.TestAddTwoNumbers
+12/25 Test: PocketCalculator.TestAddTwoNumbers
+Command: "/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/test_public" "--gtest_filter=PocketCalculator.TestAddTwoNumbers"
+Directory: /Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build
+"PocketCalculator.TestAddTwoNumbers" start time: Sep 10 22:25 EDT
+Output:
+----------------------------------------------------------
+Running main() from /private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_6094xsvp9s/croot/yaml-cpp-split_1714510906468/work/test/gtest-1.11.0/googletest/src/gtest_main.cc
+Note: Google Test filter = PocketCalculator.TestAddTwoNumbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PocketCalculator
+[ RUN      ] PocketCalculator.TestAddTwoNumbers
+[       OK ] PocketCalculator.TestAddTwoNumbers (0 ms)
+[----------] 1 test from PocketCalculator (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"PocketCalculator.TestAddTwoNumbers" end time: Sep 10 22:25 EDT
+"PocketCalculator.TestAddTwoNumbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/25 Testing: PocketCalculator.TestSubtractTwoNumbers
+13/25 Test: PocketCalculator.TestSubtractTwoNumbers
+Command: "/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/test_public" "--gtest_filter=PocketCalculator.TestSubtractTwoNumbers"
+Directory: /Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build
+"PocketCalculator.TestSubtractTwoNumbers" start time: Sep 10 22:25 EDT
+Output:
+----------------------------------------------------------
+Running main() from /private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_6094xsvp9s/croot/yaml-cpp-split_1714510906468/work/test/gtest-1.11.0/googletest/src/gtest_main.cc
+Note: Google Test filter = PocketCalculator.TestSubtractTwoNumbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PocketCalculator
+[ RUN      ] PocketCalculator.TestSubtractTwoNumbers
+[       OK ] PocketCalculator.TestSubtractTwoNumbers (0 ms)
+[----------] 1 test from PocketCalculator (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"PocketCalculator.TestSubtractTwoNumbers" end time: Sep 10 22:25 EDT
+"PocketCalculator.TestSubtractTwoNumbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/25 Testing: PocketCalculator.TestMultiplyTwoNumbers
+14/25 Test: PocketCalculator.TestMultiplyTwoNumbers
+Command: "/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/test_public" "--gtest_filter=PocketCalculator.TestMultiplyTwoNumbers"
+Directory: /Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build
+"PocketCalculator.TestMultiplyTwoNumbers" start time: Sep 10 22:25 EDT
+Output:
+----------------------------------------------------------
+Running main() from /private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_6094xsvp9s/croot/yaml-cpp-split_1714510906468/work/test/gtest-1.11.0/googletest/src/gtest_main.cc
+Note: Google Test filter = PocketCalculator.TestMultiplyTwoNumbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PocketCalculator
+[ RUN      ] PocketCalculator.TestMultiplyTwoNumbers
+[       OK ] PocketCalculator.TestMultiplyTwoNumbers (0 ms)
+[----------] 1 test from PocketCalculator (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"PocketCalculator.TestMultiplyTwoNumbers" end time: Sep 10 22:25 EDT
+"PocketCalculator.TestMultiplyTwoNumbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/25 Testing: PocketCalculator.TestDivideTwoNumbers
+15/25 Test: PocketCalculator.TestDivideTwoNumbers
+Command: "/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/test_public" "--gtest_filter=PocketCalculator.TestDivideTwoNumbers"
+Directory: /Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build
+"PocketCalculator.TestDivideTwoNumbers" start time: Sep 10 22:25 EDT
+Output:
+----------------------------------------------------------
+Running main() from /private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_6094xsvp9s/croot/yaml-cpp-split_1714510906468/work/test/gtest-1.11.0/googletest/src/gtest_main.cc
+Note: Google Test filter = PocketCalculator.TestDivideTwoNumbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PocketCalculator
+[ RUN      ] PocketCalculator.TestDivideTwoNumbers
+[       OK ] PocketCalculator.TestDivideTwoNumbers (0 ms)
+[----------] 1 test from PocketCalculator (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"PocketCalculator.TestDivideTwoNumbers" end time: Sep 10 22:25 EDT
+"PocketCalculator.TestDivideTwoNumbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/25 Testing: PocketCalculator.TestGetNumber
+16/25 Test: PocketCalculator.TestGetNumber
+Command: "/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/test_public" "--gtest_filter=PocketCalculator.TestGetNumber"
+Directory: /Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build
+"PocketCalculator.TestGetNumber" start time: Sep 10 22:25 EDT
+Output:
+----------------------------------------------------------
+Running main() from /private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_6094xsvp9s/croot/yaml-cpp-split_1714510906468/work/test/gtest-1.11.0/googletest/src/gtest_main.cc
+Note: Google Test filter = PocketCalculator.TestGetNumber
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PocketCalculator
+[ RUN      ] PocketCalculator.TestGetNumber
+[       OK ] PocketCalculator.TestGetNumber (0 ms)
+[----------] 1 test from PocketCalculator (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"PocketCalculator.TestGetNumber" end time: Sep 10 22:25 EDT
+"PocketCalculator.TestGetNumber" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/25 Testing: PocketCalculator.TestGetOperatorBasic
+17/25 Test: PocketCalculator.TestGetOperatorBasic
+Command: "/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/test_public" "--gtest_filter=PocketCalculator.TestGetOperatorBasic"
+Directory: /Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build
+"PocketCalculator.TestGetOperatorBasic" start time: Sep 10 22:25 EDT
+Output:
+----------------------------------------------------------
+Running main() from /private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_6094xsvp9s/croot/yaml-cpp-split_1714510906468/work/test/gtest-1.11.0/googletest/src/gtest_main.cc
+Note: Google Test filter = PocketCalculator.TestGetOperatorBasic
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PocketCalculator
+[ RUN      ] PocketCalculator.TestGetOperatorBasic
+[       OK ] PocketCalculator.TestGetOperatorBasic (0 ms)
+[----------] 1 test from PocketCalculator (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"PocketCalculator.TestGetOperatorBasic" end time: Sep 10 22:25 EDT
+"PocketCalculator.TestGetOperatorBasic" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/25 Testing: PocketCalculator.TestGetOperatorPromptUser
+18/25 Test: PocketCalculator.TestGetOperatorPromptUser
+Command: "/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/test_public" "--gtest_filter=PocketCalculator.TestGetOperatorPromptUser"
+Directory: /Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build
+"PocketCalculator.TestGetOperatorPromptUser" start time: Sep 10 22:25 EDT
+Output:
+----------------------------------------------------------
+Running main() from /private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_6094xsvp9s/croot/yaml-cpp-split_1714510906468/work/test/gtest-1.11.0/googletest/src/gtest_main.cc
+Note: Google Test filter = PocketCalculator.TestGetOperatorPromptUser
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PocketCalculator
+[ RUN      ] PocketCalculator.TestGetOperatorPromptUser
+[       OK ] PocketCalculator.TestGetOperatorPromptUser (0 ms)
+[----------] 1 test from PocketCalculator (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"PocketCalculator.TestGetOperatorPromptUser" end time: Sep 10 22:25 EDT
+"PocketCalculator.TestGetOperatorPromptUser" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/25 Testing: PocketCalculator.TestGetOperatorInvalidOp
+19/25 Test: PocketCalculator.TestGetOperatorInvalidOp
+Command: "/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/test_public" "--gtest_filter=PocketCalculator.TestGetOperatorInvalidOp"
+Directory: /Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build
+"PocketCalculator.TestGetOperatorInvalidOp" start time: Sep 10 22:25 EDT
+Output:
+----------------------------------------------------------
+Running main() from /private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_6094xsvp9s/croot/yaml-cpp-split_1714510906468/work/test/gtest-1.11.0/googletest/src/gtest_main.cc
+Note: Google Test filter = PocketCalculator.TestGetOperatorInvalidOp
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PocketCalculator
+[ RUN      ] PocketCalculator.TestGetOperatorInvalidOp
+[       OK ] PocketCalculator.TestGetOperatorInvalidOp (0 ms)
+[----------] 1 test from PocketCalculator (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"PocketCalculator.TestGetOperatorInvalidOp" end time: Sep 10 22:25 EDT
+"PocketCalculator.TestGetOperatorInvalidOp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/25 Testing: PocketCalculator.TestPerformOperation
+20/25 Test: PocketCalculator.TestPerformOperation
+Command: "/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/test_public" "--gtest_filter=PocketCalculator.TestPerformOperation"
+Directory: /Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build
+"PocketCalculator.TestPerformOperation" start time: Sep 10 22:25 EDT
+Output:
+----------------------------------------------------------
+Running main() from /private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_6094xsvp9s/croot/yaml-cpp-split_1714510906468/work/test/gtest-1.11.0/googletest/src/gtest_main.cc
+Note: Google Test filter = PocketCalculator.TestPerformOperation
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PocketCalculator
+[ RUN      ] PocketCalculator.TestPerformOperation
+[       OK ] PocketCalculator.TestPerformOperation (0 ms)
+[----------] 1 test from PocketCalculator (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"PocketCalculator.TestPerformOperation" end time: Sep 10 22:25 EDT
+"PocketCalculator.TestPerformOperation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/25 Testing: PocketCalculator.TestMainBasicOperators
+21/25 Test: PocketCalculator.TestMainBasicOperators
+Command: "/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/test_public" "--gtest_filter=PocketCalculator.TestMainBasicOperators"
+Directory: /Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build
+"PocketCalculator.TestMainBasicOperators" start time: Sep 10 22:25 EDT
+Output:
+----------------------------------------------------------
+Running main() from /private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_6094xsvp9s/croot/yaml-cpp-split_1714510906468/work/test/gtest-1.11.0/googletest/src/gtest_main.cc
+Note: Google Test filter = PocketCalculator.TestMainBasicOperators
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PocketCalculator
+[ RUN      ] PocketCalculator.TestMainBasicOperators
+
+0
+[       OK ] PocketCalculator.TestMainBasicOperators (158 ms)
+[----------] 1 test from PocketCalculator (158 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (158 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"PocketCalculator.TestMainBasicOperators" end time: Sep 10 22:25 EDT
+"PocketCalculator.TestMainBasicOperators" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/25 Testing: PocketCalculator.TestMainBadOperator
+22/25 Test: PocketCalculator.TestMainBadOperator
+Command: "/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/test_public" "--gtest_filter=PocketCalculator.TestMainBadOperator"
+Directory: /Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build
+"PocketCalculator.TestMainBadOperator" start time: Sep 10 22:25 EDT
+Output:
+----------------------------------------------------------
+Running main() from /private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_6094xsvp9s/croot/yaml-cpp-split_1714510906468/work/test/gtest-1.11.0/googletest/src/gtest_main.cc
+Note: Google Test filter = PocketCalculator.TestMainBadOperator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PocketCalculator
+[ RUN      ] PocketCalculator.TestMainBadOperator
+
+0
+[       OK ] PocketCalculator.TestMainBadOperator (26 ms)
+[----------] 1 test from PocketCalculator (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (26 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"PocketCalculator.TestMainBadOperator" end time: Sep 10 22:25 EDT
+"PocketCalculator.TestMainBadOperator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/25 Testing: PocketCalculator.TestMainDivideByZero
+23/25 Test: PocketCalculator.TestMainDivideByZero
+Command: "/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/test_public" "--gtest_filter=PocketCalculator.TestMainDivideByZero"
+Directory: /Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build
+"PocketCalculator.TestMainDivideByZero" start time: Sep 10 22:25 EDT
+Output:
+----------------------------------------------------------
+Running main() from /private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_6094xsvp9s/croot/yaml-cpp-split_1714510906468/work/test/gtest-1.11.0/googletest/src/gtest_main.cc
+Note: Google Test filter = PocketCalculator.TestMainDivideByZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PocketCalculator
+[ RUN      ] PocketCalculator.TestMainDivideByZero
+
+255
+[       OK ] PocketCalculator.TestMainDivideByZero (23 ms)
+[----------] 1 test from PocketCalculator (23 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (23 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"PocketCalculator.TestMainDivideByZero" end time: Sep 10 22:25 EDT
+"PocketCalculator.TestMainDivideByZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/25 Testing: PocketCalculator.TestMainEarlyQuit
+24/25 Test: PocketCalculator.TestMainEarlyQuit
+Command: "/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build/test_public" "--gtest_filter=PocketCalculator.TestMainEarlyQuit"
+Directory: /Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/build
+"PocketCalculator.TestMainEarlyQuit" start time: Sep 10 22:25 EDT
+Output:
+----------------------------------------------------------
+Running main() from /private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_6094xsvp9s/croot/yaml-cpp-split_1714510906468/work/test/gtest-1.11.0/googletest/src/gtest_main.cc
+Note: Google Test filter = PocketCalculator.TestMainEarlyQuit
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PocketCalculator
+[ RUN      ] PocketCalculator.TestMainEarlyQuit
+
+0
+[       OK ] PocketCalculator.TestMainEarlyQuit (23 ms)
+[----------] 1 test from PocketCalculator (23 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (23 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"PocketCalculator.TestMainEarlyQuit" end time: Sep 10 22:25 EDT
+"PocketCalculator.TestMainEarlyQuit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 10 22:25 EDT

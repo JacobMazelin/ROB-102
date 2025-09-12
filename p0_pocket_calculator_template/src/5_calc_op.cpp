@@ -21,7 +21,7 @@ int main() {
     float first_number;
     float second_number; 
     float result;
-    string operation;
+    char operation;
 
     cout << "Please type a number and press enter: ";
     cin >> first_number;
@@ -30,27 +30,27 @@ int main() {
     cout << "Please type another number and press enter: ";
     cin >> second_number;
 
-    if (operation == "+") {
+    if (operation == '+') {
         result = add(first_number, second_number);
     }
-    else if (operation == "-") {
+    else if (operation == '-') {
         result = subtract(first_number, second_number);
     }
-    else if (operation == "*") {
+    else if (operation == '*') {
         result = multiply(first_number, second_number);
     }
-    else if (operation == "/") {
+    else if (operation == '/') {
         if(second_number == 0){
-        cout << "Error: Divide by zero attempted!!!\n";
+        cerr << "Error: Divide by zero attempted!!!" << endl;
         return -1;
     }
         result = divide(first_number, second_number);
     }
     else {
-        cout << "Error: specified operation "<< operation <<" not recognized.\n";
+        cerr << "Error: specified operation ("<< operation <<") not recognized." << endl;
         return -1;
     }
 
-    cout << "Here's the result of the operation! \n" << first_number << operation << second_number << " = " << result << endl;
+    cout << "Here's the result of the operation!\n" << first_number << " " << operation << " " << second_number << " = " << result << endl;
 
 }

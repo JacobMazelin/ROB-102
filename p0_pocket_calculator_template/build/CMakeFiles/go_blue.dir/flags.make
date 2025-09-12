@@ -6,7 +6,7 @@ CXX_DEFINES =
 
 CXX_INCLUDES = 
 
-CXX_FLAGSarm64 =  -std=c++17 -O2 -g -DNDEBUG -arch arm64
+CXX_FLAGSarm64 =  -std=c++17 -O2 -g -DNDEBUG -std=c++17 -arch arm64
 
-CXX_FLAGS =  -std=c++17 -O2 -g -DNDEBUG -arch arm64
+CXX_FLAGS =  -std=c++17 -O2 -g -DNDEBUG -std=c++17 -arch arm64
 

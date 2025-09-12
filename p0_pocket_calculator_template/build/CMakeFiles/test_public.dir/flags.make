@@ -6,7 +6,7 @@ CXX_DEFINES = -DGTEST_LINKED_AS_SHARED_LIBRARY=1
 
 CXX_INCLUDES = -I"/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/include" -I"/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/test" -isystem /opt/miniconda3/include
 
-CXX_FLAGSarm64 =  -std=c++17 -O2 -g -DNDEBUG -arch arm64
+CXX_FLAGSarm64 =  -std=c++17 -O2 -g -DNDEBUG -std=c++17 -arch arm64
 
-CXX_FLAGS =  -std=c++17 -O2 -g -DNDEBUG -arch arm64
+CXX_FLAGS =  -std=c++17 -O2 -g -DNDEBUG -std=c++17 -arch arm64
 

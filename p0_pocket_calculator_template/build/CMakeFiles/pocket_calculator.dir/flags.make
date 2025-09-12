@@ -6,7 +6,7 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I"/Users/jacobmazelin/Desktop - Jacob’s MacBook Air/All Code/UM/ROB 102/p0_pocket_calculator_template/include"
 
-CXX_FLAGSarm64 =  -std=c++17 -O2 -g -DNDEBUG -arch arm64
+CXX_FLAGSarm64 =  -std=c++17 -O2 -g -DNDEBUG -std=c++17 -arch arm64
 
-CXX_FLAGS =  -std=c++17 -O2 -g -DNDEBUG -arch arm64
+CXX_FLAGS =  -std=c++17 -O2 -g -DNDEBUG -std=c++17 -arch arm64
 

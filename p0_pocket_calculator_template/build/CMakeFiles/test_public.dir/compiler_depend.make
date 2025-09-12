@@ -1235,12 +1235,6 @@ CMakeFiles/test_public.dir/test/test_public.cpp.o: /Users/jacobmazelin/Desktop\ 
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/view_interface.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__split_buffer \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__std_mbstate_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/atomic_unique_lock.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_list_view.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_shared_ptr.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_callback.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_state.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_token.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/char_traits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/constexpr_c_functions.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/extern_template_lists.h \
@@ -1419,7 +1413,6 @@ CMakeFiles/test_public.dir/test/test_public.cpp.o: /Users/jacobmazelin/Desktop\ 
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/compare \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/concepts \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/condition_variable \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint \
@@ -1461,7 +1454,6 @@ CMakeFiles/test_public.dir/test/test_public.cpp.o: /Users/jacobmazelin/Desktop\ 
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ratio \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/set \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/span \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stddef.h \
@@ -1653,56 +1645,47 @@ CMakeFiles/test_public.dir/test/test_public.cpp.o: /Users/jacobmazelin/Desktop\ 
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h \
   /Users/jacobmazelin/Desktop\ -\ Jacob’s\ MacBook\ Air/All\ Code/UM/ROB\ 102/p0_pocket_calculator_template/include/pocket_calculator/common/utils.h \
   /Users/jacobmazelin/Desktop\ -\ Jacob’s\ MacBook\ Air/All\ Code/UM/ROB\ 102/p0_pocket_calculator_template/test/test_utils.h \
-  /usr/local/include/gtest/gtest-assertion-result.h \
-  /usr/local/include/gtest/gtest-death-test.h \
-  /usr/local/include/gtest/gtest-matchers.h \
-  /usr/local/include/gtest/gtest-message.h \
-  /usr/local/include/gtest/gtest-param-test.h \
-  /usr/local/include/gtest/gtest-printers.h \
-  /usr/local/include/gtest/gtest-test-part.h \
-  /usr/local/include/gtest/gtest-typed-test.h \
-  /usr/local/include/gtest/gtest.h \
-  /usr/local/include/gtest/gtest_pred_impl.h \
-  /usr/local/include/gtest/gtest_prod.h \
-  /usr/local/include/gtest/internal/custom/gtest-port.h \
-  /usr/local/include/gtest/internal/custom/gtest-printers.h \
-  /usr/local/include/gtest/internal/gtest-death-test-internal.h \
-  /usr/local/include/gtest/internal/gtest-filepath.h \
-  /usr/local/include/gtest/internal/gtest-internal.h \
-  /usr/local/include/gtest/internal/gtest-param-util.h \
-  /usr/local/include/gtest/internal/gtest-port-arch.h \
-  /usr/local/include/gtest/internal/gtest-port.h \
-  /usr/local/include/gtest/internal/gtest-string.h \
-  /usr/local/include/gtest/internal/gtest-type-util.h
+  /opt/miniconda3/include/gtest/gtest-death-test.h \
+  /opt/miniconda3/include/gtest/gtest-matchers.h \
+  /opt/miniconda3/include/gtest/gtest-message.h \
+  /opt/miniconda3/include/gtest/gtest-param-test.h \
+  /opt/miniconda3/include/gtest/gtest-printers.h \
+  /opt/miniconda3/include/gtest/gtest-test-part.h \
+  /opt/miniconda3/include/gtest/gtest-typed-test.h \
+  /opt/miniconda3/include/gtest/gtest.h \
+  /opt/miniconda3/include/gtest/gtest_pred_impl.h \
+  /opt/miniconda3/include/gtest/gtest_prod.h \
+  /opt/miniconda3/include/gtest/internal/custom/gtest-port.h \
+  /opt/miniconda3/include/gtest/internal/custom/gtest-printers.h \
+  /opt/miniconda3/include/gtest/internal/gtest-death-test-internal.h \
+  /opt/miniconda3/include/gtest/internal/gtest-filepath.h \
+  /opt/miniconda3/include/gtest/internal/gtest-internal.h \
+  /opt/miniconda3/include/gtest/internal/gtest-param-util.h \
+  /opt/miniconda3/include/gtest/internal/gtest-port-arch.h \
+  /opt/miniconda3/include/gtest/internal/gtest-port.h \
+  /opt/miniconda3/include/gtest/internal/gtest-string.h \
+  /opt/miniconda3/include/gtest/internal/gtest-type-util.h
 
 
-/usr/local/include/gtest/internal/gtest-type-util.h:
+/opt/miniconda3/include/gtest/internal/gtest-string.h:
 
-/usr/local/include/gtest/internal/gtest-string.h:
+/opt/miniconda3/include/gtest/internal/gtest-param-util.h:
 
-/usr/local/include/gtest/internal/gtest-port.h:
+/opt/miniconda3/include/gtest/internal/gtest-internal.h:
 
-/usr/local/include/gtest/internal/gtest-port-arch.h:
+/opt/miniconda3/include/gtest/internal/gtest-filepath.h:
 
-/usr/local/include/gtest/internal/gtest-filepath.h:
+/opt/miniconda3/include/gtest/internal/custom/gtest-printers.h:
 
-/usr/local/include/gtest/internal/gtest-death-test-internal.h:
+/opt/miniconda3/include/gtest/internal/custom/gtest-port.h:
 
-/usr/local/include/gtest/internal/custom/gtest-printers.h:
+/opt/miniconda3/include/gtest/gtest_pred_impl.h:
 
-/usr/local/include/gtest/internal/custom/gtest-port.h:
+/opt/miniconda3/include/gtest/gtest-test-part.h:
 
-/usr/local/include/gtest/gtest_pred_impl.h:
+/opt/miniconda3/include/gtest/gtest-printers.h:
 
-/usr/local/include/gtest/gtest.h:
-
-/usr/local/include/gtest/gtest-printers.h:
-
-/usr/local/include/gtest/gtest-param-test.h:
-
-/usr/local/include/gtest/gtest-matchers.h:
-
-/usr/local/include/gtest/gtest-assertion-result.h:
+/opt/miniconda3/include/gtest/gtest-matchers.h:
 
 /Users/jacobmazelin/Desktop\ -\ Jacob’s\ MacBook\ Air/All\ Code/UM/ROB\ 102/p0_pocket_calculator_template/test/test_utils.h:
 
@@ -1737,16 +1720,6 @@ CMakeFiles/test_public.dir/test/test_public.cpp.o: /Users/jacobmazelin/Desktop\ 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/any:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_token.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_state.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_callback.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_shared_ptr.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/atomic_unique_lock.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h:
 
@@ -1785,8 +1758,6 @@ CMakeFiles/test_public.dir/test/test_public.cpp.o: /Users/jacobmazelin/Desktop\ 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/auto_cast.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdarg.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_list_view.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/limits.h:
 
@@ -1834,8 +1805,6 @@ CMakeFiles/test_public.dir/test/test_public.cpp.o: /Users/jacobmazelin/Desktop\ 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stdio.h:
 
-/usr/local/include/gtest/internal/gtest-param-util.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/resource.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h:
@@ -1874,6 +1843,8 @@ CMakeFiles/test_public.dir/test/test_public.cpp.o: /Users/jacobmazelin/Desktop\ 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_nlink_t.h:
 
+/opt/miniconda3/include/gtest/gtest-death-test.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sift_down.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int32_t.h:
@@ -1911,6 +1882,8 @@ CMakeFiles/test_public.dir/test/test_public.cpp.o: /Users/jacobmazelin/Desktop\ 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h:
+
+/opt/miniconda3/include/gtest/gtest-param-test.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/memory_order.h:
 
@@ -1957,6 +1930,8 @@ CMakeFiles/test_public.dir/test/test_public.cpp.o: /Users/jacobmazelin/Desktop\ 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/types.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/__endian.h:
+
+/opt/miniconda3/include/gtest/internal/gtest-type-util.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/limits.h:
 
@@ -2007,10 +1982,6 @@ CMakeFiles/test_public.dir/test/test_public.cpp.o: /Users/jacobmazelin/Desktop\ 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/merge.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/print:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/span:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/condition_variable:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/copyable.h:
 
@@ -2526,6 +2497,8 @@ CMakeFiles/test_public.dir/test/test_public.cpp.o: /Users/jacobmazelin/Desktop\ 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/hyperbolic_functions.h:
 
+/opt/miniconda3/include/gtest/gtest-message.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/exponential_functions.h:
@@ -2535,8 +2508,6 @@ CMakeFiles/test_public.dir/test/test_public.cpp.o: /Users/jacobmazelin/Desktop\ 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__node_handle:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h:
-
-/usr/local/include/gtest/gtest-message.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/copysign.h:
 
@@ -2552,15 +2523,11 @@ CMakeFiles/test_public.dir/test/test_public.cpp.o: /Users/jacobmazelin/Desktop\ 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/reverse_access.h:
 
-/usr/local/include/gtest/gtest-typed-test.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/readable_traits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_suseconds_t.h:
-
-/usr/local/include/gtest/gtest-test-part.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h:
 
@@ -2828,8 +2795,6 @@ CMakeFiles/test_public.dir/test/test_public.cpp.o: /Users/jacobmazelin/Desktop\ 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/rotate_copy.h:
 
-/usr/local/include/gtest/internal/gtest-internal.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/totally_ordered.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_static_assert.h:
@@ -2849,8 +2814,6 @@ CMakeFiles/test_public.dir/test/test_public.cpp.o: /Users/jacobmazelin/Desktop\ 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/tag_types.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temporary_buffer.h:
-
-/usr/local/include/gtest/gtest_prod.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter.h:
 
@@ -2902,9 +2865,13 @@ CMakeFiles/test_public.dir/test/test_public.cpp.o: /Users/jacobmazelin/Desktop\ 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/format.h:
 
+/opt/miniconda3/include/gtest/gtest_prod.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ratio:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_if.h:
+
+/opt/miniconda3/include/gtest/internal/gtest-death-test-internal.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:
 
@@ -2979,6 +2946,8 @@ CMakeFiles/test_public.dir/test/test_public.cpp.o: /Users/jacobmazelin/Desktop\ 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/to_gcc_order.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_arg.h:
+
+/opt/miniconda3/include/gtest/gtest.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/kill_dependency.h:
 
@@ -3141,6 +3110,8 @@ CMakeFiles/test_public.dir/test/test_public.cpp.o: /Users/jacobmazelin/Desktop\ 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_copy_n.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h:
+
+/opt/miniconda3/include/gtest/gtest-typed-test.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/regular.h:
 
@@ -3324,6 +3295,8 @@ CMakeFiles/test_public.dir/test/test_public.cpp.o: /Users/jacobmazelin/Desktop\ 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h:
 
+/opt/miniconda3/include/gtest/internal/gtest-port.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocate_at_least.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_strings.h:
@@ -3362,13 +3335,13 @@ CMakeFiles/test_public.dir/test/test_public.cpp.o: /Users/jacobmazelin/Desktop\ 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sort_heap.h:
 
-/usr/local/include/gtest/gtest-death-test.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sched.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/operations.h:
+
+/opt/miniconda3/include/gtest/internal/gtest-port-arch.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h:
 

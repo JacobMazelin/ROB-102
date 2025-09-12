@@ -81,20 +81,16 @@ void getNumber(std::ostream& output_stream, std::istream& input_stream, float &n
 }
 
 bool getOperator(std::ostream& output_stream, std::istream& input_stream, char &operation){
-    while (true){
+    
         output_stream << "Please type a math operator (one of: + - * / or q to quit): ";
         input_stream >> operation;
-        if (operation == 'q'){
-            // exit(0);
+        if (operation == '+' || operation == '-' || operation == '*' || operation == '/' || operation == 'q'){
             return false;
-        }
-        if (operation == '+' || operation == '-' || operation == '*' || operation == '/'){
-            return true;
         } else {
-            cerr << "Error: specified operation ("<< operation <<") not recognized." << endl;
+            return true;
         }
 }
-}
+
 
 bool performOperation(float operand1, char operation, float operand2, float &result){
   switch(operation){
